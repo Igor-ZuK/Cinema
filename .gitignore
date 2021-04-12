@@ -1,0 +1,26 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+idea
+.DS_Store
+
+dist
+db.sqlite3
+
+env
+venv
+
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+*backend/*/migrations/*
+!*backend/*/migrations
+!*backend/*/migrations/__init__.py
+
+__pycache__/
+*/__pycache__/
+*.py[cod]
+.pyc
+*.pyc
+
+media/*
+!*media
